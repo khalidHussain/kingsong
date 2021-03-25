@@ -1,12 +1,10 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Video from "../../../images/Shop/Group1026.png"
 import StarGrp from "../../../images/Group162.png"
 import Checq from "../../../images/Shop/Grouptick.png"
 import Doller from "../../../images/Shop/fa-solid_comment-dollar.png"
 import Deliver from "../../../images/Shop/fa-solid_headset.png"
 import Service from "../../../images/Shop/fa-solid_shipping-fast.png"
-
 
 const Discription = ({ siteTitle }) => (
   <div className="">
@@ -244,7 +242,7 @@ const Discription = ({ siteTitle }) => (
 
       <div className="flex justify-between py-6">
         <button type="button"
-                className="focus:outline-none bg-yellow-600 text-sm text-white py-2.5 px-5 rounded-full  hover:bg-yellow-500">Write
+                className="focus:outline-none nav-top-main text-sm text-white py-2.5 px-5 rounded-full  hover:bg-yellow-600">Write
           a review
         </button>
 

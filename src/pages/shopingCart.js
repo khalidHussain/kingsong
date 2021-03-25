@@ -1,23 +1,16 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import Rec1095 from "../images/AboutUs/Rectangle1095.png"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Rec20 from "../images/AboutUs/Rectangle20.png"
 import DldRed from "../images/AboutUs/dld-red.png"
 import DldSm from "../images/AboutUs/dld-sm.png"
-
 import ShopHero from "../images/Shop/shophero.png"
 import { useState } from "react"
-import Facebook from "../images/Blog/facebook.png"
-import Insta from "../images/Blog/insta.png"
-import Play from "../images/Blog/play.png"
 import Visa from "../images/visa-light-large.png"
 import Master from "../images/mastercard-light-large.png"
 import Amricna from "../images/americanexpress-light-large.png"
 import Paypal from "../images/paypal-light-large.png"
-// import Wishlistcomponent from "../components/wishlist/wishlistcomponent"
-
 
 const ShopingCart = (props) => {
 

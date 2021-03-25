@@ -1,6 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ShopHero from "../images/Shop/shophero.png"
@@ -14,7 +12,6 @@ import Off from "../images/Blog/Rectangle53.png"
 import Facebook from "../images/Blog/facebook.png"
 import Insta from "../images/Blog/insta.png"
 import Play from "../images/Blog/play.png"
-
 
 const Blog = (props) => {
   return (
@@ -60,7 +57,7 @@ const Blog = (props) => {
                   <div className="flex">
                     <input className="border border-b-2 py-2 w-3/4  border-gray-200 rounded " placeholder="Search" />
                     <button type="button"
-                            className="focus:outline-none w-1/4 bg-yellow-600 text-sm text-white p-2  hover:bg-yellow-500">Go
+                            className="focus:outline-none w-1/4 nav-top-main text-sm text-white p-2  hover:bg-yellow-600">Go
                     </button>
                   </div>
                   <div className="flex p-4">
@@ -71,7 +68,7 @@ const Blog = (props) => {
                     </div>
                   </div>
                   <ul className="p-4">
-                    <li className="text-yellow-600 py-2 font-semibold">Top 7 Electric Unicycles of 2020 Reviewed</li>
+                    <li className="orange-color py-2 font-semibold">Top 7 Electric Unicycles of 2020 Reviewed</li>
                     <li className=" py-2 font-semibold">Comparing the King Song KS-14D and KS-16XL</li>
                     <li className=" py-2 font-semibold">What makes a “good” Electric Unicycles?</li>
                     <li className=" py-2 font-semibold">What Components of an Electric Unicycle are the
@@ -83,7 +80,7 @@ const Blog = (props) => {
                     <div className="p-4">
                       <strong>Subscribe news</strong>
                       <div>
-                        _________________
+                        {/*_________________*/}
                       </div>
                       <p className="text-gray-400">Urna, ut non senectus scelerisque netus. Aliquam sit placerat sed
                         vestibulum magna aenean amet.</p>
@@ -94,7 +91,7 @@ const Blog = (props) => {
                              placeholder="Email" />
 
                       <button type="button"
-                              className="focus:outline-none bg-yellow-600 text-sm text-white px-5 py-2 rounded-full  hover:bg-yellow-500">Subscribe
+                              className="focus:outline-none nav-top-main text-sm text-white px-5 py-2 rounded-full  hover:bg-yellow-600">Subscribe
                       </button>
                     </div>
 
@@ -106,14 +103,14 @@ const Blog = (props) => {
                         _________________
                       </div>
                       <div className="flex justify-around p-4">
-                        <div className="rounded-full px-4 py-2 bg-yellow-600">
+                        <div className="rounded-full px-4 py-2 nav-top-main hover:bg-yellow-600">
                           <img className=" " src={Facebook} alt="facebook " />
                         </div>
-                        <div className="rounded-full px-3 py-2.5 bg-yellow-600">
+                        <div className="rounded-full px-3 py-2.5 nav-top-main hover:bg-yellow-600">
 
                           <img className=" " src={Insta} alt="insta " />
                         </div>
-                        <div className="rounded-full py-3.5 px-2.5 bg-yellow-600">
+                        <div className="rounded-full py-3.5 px-2.5 nav-top-main hover:bg-yellow-600">
 
                           <img className=" " src={Play} alt="play " />
                         </div>

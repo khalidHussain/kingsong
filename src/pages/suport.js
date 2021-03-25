@@ -1,14 +1,7 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import Rec1095 from "../images/AboutUs/Rectangle1095.png"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Shippin from "../images/shipping.png"
-import Money from "../images/Vector.png"
-import Online from "../images/services.png"
-import CustomerReview from "../components/Home/customerReview"
 import ShopHero from "../images/Shop/shophero.png"
-
 
 const Suport = (props) => {
   return (

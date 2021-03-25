@@ -1,15 +1,11 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import Rec1095 from "../images/AboutUs/Rectangle1095.png"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Rec20 from "../images/AboutUs/Rectangle20.png"
 import Rec48 from "../images/AboutUs/Rec48.png"
 import Rec49 from "../images/AboutUs/Rec49.png"
-
 import ShopHero from "../images/Shop/shophero.png"
 import Wishcomp from "../components/wishlist/wishcomp"
-import DldRed from "../images/AboutUs/dld-red.png"
 
 
 const Wishlist = (props) => {

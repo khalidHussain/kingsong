@@ -20,9 +20,7 @@ const Shop = () => {
 
   const [grid, setGrid] = useState(true)
 
-  function gridhandel() {
-    setGrid(!grid)
-  }
+
 
   const [list, setList] = useState(false)
   const [addCart, setAddCart] = useState(false)

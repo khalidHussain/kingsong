@@ -1,14 +1,7 @@
 import * as React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import Elips from "../../images/Ellipse10.png"
 import Group from "../../images/Group1162.png"
-
-
 import "./itemSec.css"
-import Rec4 from "../../images/Rectangle52.png"
 import "./itemSec.css"
 
 const CustomerReview = ({ siteTitle }) => (

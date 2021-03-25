@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-
 const BlogCard = (props) => {
   return (
 
@@ -15,7 +14,7 @@ const BlogCard = (props) => {
           <p className="text-gray-400">{props.date}</p>
           <p className="  py-4">{props.title}</p>
 
-          <Link className="text-yellow-600 float-right hover:bg-gray-100 rounded-full " to="/blogdetails">Read More </Link>
+          <Link className="orange-color  float-right hover:bg-gray-100 rounded-full " to="/blogdetails">Read More </Link>
         </div>
       </div>
 

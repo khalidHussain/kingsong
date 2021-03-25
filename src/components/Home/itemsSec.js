@@ -1,8 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import Rec4 from "../../images/Rectangle52.png"
 import Rec5 from "../../images/Rectangle53.png"
 import Speed from "../../images/speed.png"
@@ -71,8 +67,10 @@ const ItemsSec = ({ siteTitle }) => (
             erat quis id non a. Elit tellus est tincidunt vel arcu convallis. Metus in massa neque auctor tincidunt id
             sagittis ut. Quam ornare risus habitasse.
           </p>
-          <button className="float-right p-4 bg-yellow-600 rounded rounded-full text-white">Read More</button>
-
+          {/*<button className="float-right p-4 bg-yellow-600 rounded rounded-full text-white"></button>*/}
+          <button type="button"
+                  className="focus:outline-none nav-top-main text-sm text-white px-5 py-2 rounded-full  hover:bg-yellow-600">Read More
+          </button>
           <div className="flex justify-around w-full p-4">
 
 
