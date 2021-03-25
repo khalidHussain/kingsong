@@ -1,0 +1,21 @@
+.Shop-headder {
+    background-image: url("");
+}
+
+.Shop-line {
+    border-bottom: 2px solid orange;
+    width: 100%;
+}
+
+.Shop-line-price {
+    width: 100px;
+    height: 11px;
+    border-bottom: 7px solid orange;
+}
+
+.circle-price {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
