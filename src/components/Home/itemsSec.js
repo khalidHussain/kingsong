@@ -20,7 +20,7 @@ const ItemsSec = ({ siteTitle }) => (
       </div>
 
       <div className="flex md:w-1/2  ">
-        <div className="flex flex-col justify-center items-center p-6">
+        <div className="flex flex-col w-full justify-center items-center p-6">
           <p className="text-bold text-3xl font-bold pb-4 pr-6">
             The King Song 14D Electric Unicycle</p>
           <p className="p-4">
