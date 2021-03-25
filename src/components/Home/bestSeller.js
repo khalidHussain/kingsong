@@ -12,7 +12,7 @@ import StarGrp from "../../images/Group162.png"
 import "./itemSec.css"
 import Rec4 from "../../images/Rectangle52.png"
 import "./itemSec.css"
-import Rec1 from "../../images/Rectangle43.png"
+
 
 const BestSeller = (props) => {
   return (
