@@ -1,8 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import KingSong11 from "../../images/Rectangle201.png"
 import KingSong21 from "../../images/Rectangle201-1.png"
 import KingSong31 from "../../images/Rectangle201-2.png"
@@ -12,7 +8,7 @@ import StarGrp from "../../images/Group162.png"
 import "./itemSec.css"
 import Rec4 from "../../images/Rectangle52.png"
 import "./itemSec.css"
-import Rec1 from "../../images/Rectangle43.png"
+// import Rec1 from "../../images/Rectangle43.png"
 
 const Treanding = ({ siteTitle }) => (
   <div className="flex justify-center  py-8">
@@ -46,7 +42,7 @@ const Treanding = ({ siteTitle }) => (
           <p className="pb-3">
             KingSong XL Pedal
           </p>
-          <button className="float-right p-2 bg-yellow-600 rounded rounded-full text-white">Add to cart</button>
+          <button className="float-right p-2 nav-top-main hover:bg-yellow-600 rounded rounded-full text-white">Add to cart</button>
 
         </div>
 

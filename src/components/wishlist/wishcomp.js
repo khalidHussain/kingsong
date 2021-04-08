@@ -1,6 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import Rec20 from "../../images/AboutUs/Rectangle20.png"
 import DldRed from "../../images/AboutUs/dld-red.png"
 
 const wishcomp = (props) => {

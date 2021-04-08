@@ -1,8 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import Rec4 from "../../images/Rectangle52.png"
 import Rec5 from "../../images/Rectangle53.png"
 import Speed from "../../images/speed.png"
@@ -20,7 +16,7 @@ const ItemsSec = ({ siteTitle }) => (
       </div>
 
       <div className="flex md:w-1/2  ">
-        <div className="flex flex-col justify-center items-center p-6">
+        <div className="flex flex-col w-full justify-center items-center p-6">
           <p className="text-bold text-3xl font-bold pb-4 pr-6">
             The King Song 14D Electric Unicycle</p>
           <p className="p-4">
@@ -71,8 +67,10 @@ const ItemsSec = ({ siteTitle }) => (
             erat quis id non a. Elit tellus est tincidunt vel arcu convallis. Metus in massa neque auctor tincidunt id
             sagittis ut. Quam ornare risus habitasse.
           </p>
-          <button className="float-right p-4 bg-yellow-600 rounded rounded-full text-white">Read More</button>
-
+          {/*<button className="float-right p-4 bg-yellow-600 rounded rounded-full text-white"></button>*/}
+          <button type="button"
+                  className="focus:outline-none nav-top-main text-sm text-white px-5 py-2 rounded-full  hover:bg-yellow-600">Read More
+          </button>
           <div className="flex justify-around w-full p-4">
 
 

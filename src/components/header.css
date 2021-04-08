@@ -133,3 +133,11 @@ nav-bottom-right {
     -ms-transform: rotate(20deg); /* IE 9 */
     transform: rotate(270deg);
 }
+
+.position-class{
+    position: absolute;
+    left: 30%;
+    bottom: 8%;
+    padding: 3vh 9vh;
+
+}

@@ -2,10 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import "./header.css"
-import { StaticImage } from "gatsby-plugin-image"
-import Layout from "./layout"
 import HeaderMenu from "../components/header/headermenu"
-
 import Flag from "../images/emojione_flag-for-united-states.png"
 import Logo from "../images/logo.png"
 import Search from "../images/serch.png"
@@ -44,7 +41,7 @@ const Header = ({ siteTitle }) => {
             </div>
             <div className=" flex">
               <img className="mx-2" src={Flag} alt="logo" />
-              <label >Eng <i className="fa fa-sort-down text-white"></i></label>
+              <label>Eng <i className="fa fa-sort-down text-white"></i></label>
               <label>USD</label><i className="fas fa-sort-down text-white"></i>
 
             </div>
@@ -56,7 +53,7 @@ const Header = ({ siteTitle }) => {
         <div className="flex justify-center w-full">
           <div className="nav-bottom  lg:w-5/6 xl:w-5/6 2xl:w-1/2">
             <div className="nav-bottom-left">
-              <img src={Logo} alt="logo" />
+              <Link to="/"> <img src={Logo} alt="logo" /></Link>
 
             </div>
             <div className="nav-bottom-middle">

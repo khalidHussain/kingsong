@@ -1,11 +1,6 @@
 import * as React from "react"
-// import { config } from '@fortawesome/fontawesome-svg-core'
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import Logo from "../../images/logo.png"
-import { useState } from "react"
-// import "./footer.css"
-
 
 const Headermenu = ({ siteTitle, setNavOpen }) => {
 
@@ -30,7 +25,7 @@ const Headermenu = ({ siteTitle, setNavOpen }) => {
           <div className="">
             <p>
 
-              <a className=" p-4 hover:text-yellow-600" href="/shop">Electric Unicycles</a>
+              <a className=" p-4 hover:text-yellow-600  " href="/shop">Electric Unicycles</a>
             </p>
             <p>
 

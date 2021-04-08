@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import KingSong1 from "../../../images/Rectangle20.png"
 import StarGrp from "../../../images/Group162.png"
 import Compare from "../../../images/Shop/compare.png"
@@ -10,12 +9,24 @@ import Master from "../../../images/Shop/mastercard-outline-large.png"
 import Amercian from "../../../images/Shop/americanexpress-outline-large.png"
 import PayPal from "../../../images/Shop/paypal-outline-large.png"
 import Clock from "../../../images/Shop/Vector.png"
-
+import Rec81 from "../../../images/Blog/Rectangle81.png"
+import Rec82 from "../../../images/Blog/Rectangle82.png"
+import Rec83 from "../../../images/Blog/Rectangle83.png"
 
 const ItemDetails = ({ siteTitle }) => (
-  <div className=" md:flex p-4 items-center mb-4 ">
-    <img className="  " src={KingSong1} alt="KingSong1" />
-    <div className="p-4  ">
+  <div className=" md:flex  p-4 items-center mb-4 ">
+    <div className="md:w-1/3">
+      <img className="  " src={KingSong1} alt="KingSong1" />
+      <div className="flex justify-around">
+        <img className="  " src={Rec81} alt="KingSong1" />
+        <img className="  " src={Rec82} alt="KingSong1" />
+        <img className="  " src={Rec83} alt="KingSong1" />
+
+      </div>
+    </div>
+
+
+    <div className="p-4 md:w-2/3 ">
       <div className="flex">
         <div className="w-full">
           <img className="  " src={StarGrp} alt="Stat grp" />
@@ -114,7 +125,7 @@ const ItemDetails = ({ siteTitle }) => (
               </div>
               <div>
                 <button type="button"
-                        className="focus:outline-none bg-yellow-600 text-sm text-white py-2.5 px-5 rounded-full  hover:bg-yellow-500">Add
+                        className="focus:outline-none nav-top-main text-sm text-white py-2.5 px-5 rounded-full  hover:bg-yellow-600">Add
                   to cart
                 </button>
               </div>

@@ -1,18 +1,11 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import HeroImg from "../images/banner.png"
 import Money from "../images/Vector.png"
 import Shippin from "../images/shipping.png"
-import Rec1 from "../images/Rectangle43.png"
-import Rec2 from "../images/Rectangle44.png"
-import Rec3 from "../images/Rectangle45.png"
-import Img from "../images/img.png"
+import Img from "../images/img1.png"
 import Online from "../images/services.png"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import TopHeader from "./header/topHeader"
 import ItemsSec from "../components/Home/itemsSec"
 import CustomerReview from "../components/Home/customerReview"
 import BestSeller from "../components/Home/bestSeller"
@@ -27,7 +20,7 @@ const IndexPage = (props) => {
       {/*--------Hero img---------*/}
       <div className="relative ">
         <img className="w-screen " src={HeroImg} alt="Hero img" />
-        {/*<button className="absolute bottom-20 left-50">Buy Now</button>*/}
+        {/*<button className=" text-white font-bold rounded-full   nav-top-main position-class">Buy Now</button>*/}
       </div>
 
       {/*------------Shipping Section-------------*/}
@@ -65,22 +58,12 @@ const IndexPage = (props) => {
             because have foldable pedals.
           </p>
         </div>
-        <div className="p-4 relative ">
+        <div className="flex justify-center items-center ">
 
-
-          <div className=" mt-10">
-            <div className="flex flex-col justify-center items-center">
-              <img className="mb-2 md:w-1/2 " src={Rec1} alt="Hero img" />
-              <img className="mb-2 md:w-1/2" src={Rec2} alt="Hero img" />
-              <img className="mb-2 md:w-1/2" src={Rec3} alt="Hero img" />
-
-            </div>
-            <div className="flex justify-center items-center ">
-
-              <img className="absolute z-10 top-0 h-auto  md:w-1/2" src={Img} alt="Hero img" />
-            </div>
-          </div>
+          <img className=" " src={Img} alt="item img" />
         </div>
+
+
       </div>
 
       {/*  ------------------------------*/}

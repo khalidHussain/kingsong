@@ -1,18 +1,9 @@
 import * as React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
 import KingSong1 from "../../images/Rectangle20.png"
 import KingSong2 from "../../images/Rectangle20-1.png"
 import KingSong3 from "../../images/Rectangle20-2.png"
 import StarGrp from "../../images/Group162.png"
-
-
 import "./itemSec.css"
-import Rec4 from "../../images/Rectangle52.png"
-import "./itemSec.css"
-import Rec1 from "../../images/Rectangle43.png"
 
 const BestSeller = (props) => {
   return (
@@ -49,7 +40,7 @@ const BestSeller = (props) => {
               KingSong KS-S18
             </p>
             <button type="button"
-                    className="focus:outline-none bg-yellow-600 text-sm text-white py-2.5 px-5 rounded-full  hover:bg-yellow-500">Add to cart
+                    className="focus:outline-none nav-top-main text-sm text-white py-2.5 px-5 rounded-full  hover:bg-yellow-500">Add to cart
             </button>
 
           </div>
